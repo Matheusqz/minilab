@@ -2,17 +2,18 @@
 
 # Minilab
 
-`Minilab` provides the foundations to build the UI and is agnostic to it.
+> `Minilab` provides the foundations to build a modern and flexible notebook UI.
 
-- Lumino Signals
-- Lumino Extension Machinery
-- The Lumino Setttings
-- The Lumino Commands
-- The JupyterLab Services
-- The JupyterLab App and App-Utils
+It gathers the minimum set of [Lumino](https://github.com/jupyterlab/jupyterlab) and [JupyterLab](https://github.com/jupyterlab/jupyterlab) technologies:
 
-It does not ship the Lumino Layouts not the Lumino Panels.
+- Lumino Signals.
+- Lumino Settings
+- Lumino Commands.
+- Extension machinery.
+- Extension machinery.
+- JupyterLab Services to connect with remote Kernels.
+- JupyterLab App and App-Utils.
 
-So you would come on top with e.g. `lab-react`, `lab-vue`...
+It explictely does not ship the Lumino Layouts not the Lumino Panels. So you would come on top with e.g. `lab-react`, `lab-vue`...
 
-`lab-react` and `lab-vue` can communicate via `Minilab`.
+We also intend to deliver cross UI communication: e.g. `lab-react` could communicate to `lab-vue` via the `minilab` hub.
