@@ -1,8 +1,8 @@
 [![Datalayer](https://raw.githubusercontent.com/datalayer/datalayer/main/res/logo/datalayer-25.svg?sanitize=true)](https://datalayer.io)
 
-# Minilab
+# 🎹 Minilab
 
-> 🎹 `Minilab`, foundations to build a modern and flexible notebook UI.
+> Minilab, foundations to build a modern and flexible notebook UI.
 
 It gathers the minimum set of [Lumino](https://github.com/jupyterlab/jupyterlab) and [JupyterLab](https://github.com/jupyterlab/jupyterlab) technologies:
 
