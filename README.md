@@ -10,7 +10,6 @@ It gathers the minimum set of [Lumino](https://github.com/jupyterlab/jupyterlab)
 - Lumino Settings
 - Lumino Commands.
 - Extension machinery.
-- Extension machinery.
 - JupyterLab Services to connect with remote Kernels.
 - JupyterLab App and App-Utils.
 
