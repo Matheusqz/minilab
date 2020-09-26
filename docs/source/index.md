@@ -7,4 +7,3 @@
 You can have a look at to learn more:
 
 - The [GitHub Repository](https://github.com/datalayer/minilab)
-- The [Storybook](https://minilab.datalayer.io)

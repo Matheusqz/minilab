@@ -2,7 +2,7 @@
 
 # Minilab
 
-> `Minilab` provides the foundations to build a modern and flexible notebook UI.
+> 🎹 `Minilab`, foundations to build a modern and flexible notebook UI.
 
 It gathers the minimum set of [Lumino](https://github.com/jupyterlab/jupyterlab) and [JupyterLab](https://github.com/jupyterlab/jupyterlab) technologies:
 
