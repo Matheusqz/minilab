@@ -4,9 +4,20 @@
 
 [Juniper](https://github.com/ines/juniper).
 
-[Juniper Online Examples](https://ines.github.io/juniper).
+[Online Examples](https://ines.github.io/juniper).
 
 ```bash
 python -m http.server -d ./demo
 open http://localhost:8000
+open http://localhost:8000/binder.html
+```
+
+```bash
+jupyter notebook \
+  --port 8888 \
+  --notebook-dir=./demo \
+  --NotebookApp.token=testsecret \
+  --NotebookApp.allow_origin="*"
+python -m http.server -d ./demo
+open http://localhost:8000/localhost.html
 ```

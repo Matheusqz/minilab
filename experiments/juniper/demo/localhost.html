@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -61,8 +62,14 @@ print(some_string + some_int)
         <script src="js/juniper.min.js"></script>
         <script>
             new Juniper({
-                repo: 'ines/spacy-io-binder'
-            });
+                useStorage: false,
+                useBinder: false,
+                serverSettings: {
+                    baseUrl: 'http://localhost:8888',
+                    wsUrl: 'ws://localhost:8888',
+                    token: 'testsecret'
+                }
+            }); 
 
             // listen to status updates
             document.addEventListener('juniper', ev =>
