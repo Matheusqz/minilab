@@ -1,5 +1,5 @@
 {
-  "name": "@datalayer/minilab",
+  "name": "@datalayer/minilab-react",
   "version": "0.0.1",
   "license": "MIT",
   "description": "Minilab",
@@ -34,16 +34,16 @@
     "build:watch:res": "gulp resources-to-lib-watch"
   },
   "dependencies": {
-    "@jupyterlab/application": "2.1.0",
-    "@jupyterlab/apputils": "2.1.0",
-    "@jupyterlab/vdom": "2.1.0",
-    "@lumino/messaging": "^1.3.3",
-    "@lumino/virtualdom": "^1.6.1"
+    "@datalayer/minilab": "0.0.1",
+    "react": "16.9.0",
+    "react-dom": "16.9.0"
   },
   "devDependencies": {
     "@babel/core": "^7.5.0",
     "@babel/preset-env": "^7.7.6",
     "@types/node": "~12.12.21",
+    "@types/react": "16.9.16",
+    "@types/react-dom": "16.9.4",
     "@types/webpack-env": "^1.14.1",
     "awesome-typescript-loader": "^5.2.1",
     "babel-loader": "^8.0.6",

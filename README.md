@@ -15,4 +15,4 @@ It gathers the minimum set of [Lumino](https://github.com/jupyterlab/jupyterlab)
 
 It explictely does not ship the Lumino Layouts not the Lumino Panels. So you would come on top with e.g. `lab-react`, `lab-vue`...
 
-We also intend to deliver cross UI communication: e.g. `lab-react` could communicate to `lab-vue` via the `minilab` hub.
+We also intend to deliver cross UI communication: e.g. `minilab-react` could communicate to `minilab-vue` via the `minilab` hub.
