@@ -2,7 +2,7 @@
 
 > This is Work in Progress
 
-**The `Minilab` project ensures React.js becomes a Jupyter first-class citizen**
+**🎹 Minilab, foundations to build a modern and flexible notebook UI**
 
 ## Site Contents
 
