@@ -4,6 +4,23 @@
 
 **The `Minilab` project ensures React.js becomes a Jupyter first-class citizen**
 
-You can have a look at to learn more:
+## Site Contents
 
-- The [GitHub Repository](https://github.com/datalayer/minilab)
+```{toctree}
+---
+maxdepth: 2
+caption: Experiments
+---
+experiments/thebe
+experiments/juniper
+experiments/pluto
+experiments/ck-editor
+```
+
+```{toctree}
+---
+maxdepth: 2
+caption: Links
+---
+GitHub repo <https://github.com/datalayer/minilab>
+```
