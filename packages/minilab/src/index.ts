@@ -1,1 +1,3 @@
-// console.log('No minilab so far...');
+import React from 'react';
+
+console.log('No minilab so far...');
