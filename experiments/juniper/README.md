@@ -9,7 +9,6 @@
 ```bash
 python -m http.server -d ./demo
 open http://localhost:8000
-open http://localhost:8000/binder.html
 ```
 
 ```bash

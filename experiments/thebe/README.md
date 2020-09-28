@@ -28,7 +28,7 @@ open http://localhost:8000/demo.html
 jupyter notebook \
   --port 8888 \
   --notebook-dir=./demo \
-  --NotebookApp.token=test-secret \
+  --NotebookApp.token=thebe_secret \
   --NotebookApp.allow_origin="*"
 open http://localhost:8888/view/index.html
 ```
