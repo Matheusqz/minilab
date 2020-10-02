@@ -4,7 +4,7 @@
 
 > Minilab, foundations to build a modern and flexible notebook UI.
 
-It gathers the minimum set of [Lumino](https://github.com/jupyterlab/jupyterlab) and [JupyterLab](https://github.com/jupyterlab/jupyterlab) technologies:
+It gathers the minimum set of [Lumino](https://github.com/jupyterlab/lumino) and [JupyterLab](https://github.com/jupyterlab/jupyterlab) technologies:
 
 - Lumino Signals.
 - Lumino Settings
